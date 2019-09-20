@@ -70,8 +70,8 @@ header .profile-image {
   width: 140px;
   height: 160px;
   border-radius: 55%;
-  border: 3px solid white;
-  transition: all .5s;
+  border: 3px solid Gainsboro;
+  transition: all .8s;
 }
 header .profile-image:hover {
   transform: scale(1.2) rotate(5deg);
@@ -88,7 +88,7 @@ header .profile-image:hover {
   background-color: #222;
   color: aliceblue;
 }
-.primary-content {
+.card {
   margin: 30px;
   padding: 20px 40px 40px;
   max-width: 500px;
@@ -102,7 +102,13 @@ header .profile-image:hover {
   color: firebrick;
 }
 
-.primary-content:hover {
+.mystory-image {
+  margin: 30px;
+  width: 480px;
+  height: 360px;
+}
+
+.card:hover {
   border-color: LightCoral;
 }
 
